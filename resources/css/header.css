@@ -1,0 +1,35 @@
+.header-custom {
+    width: 100%;
+    min-height: 60vh;
+    background: linear-gradient( rgba(0,10,0,0.4),rgba(0,10,0,0.4) ), url('/assets/restaurant-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-custom:hover {
+    background-position:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-header {
+    position: absolute;
+    top: 22%;
+    right: 2%;
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+}
+
+.img-section {
+    background: linear-gradient(0deg, rgba(0,0, 0,0.383820564516129) 14%, rgba(0,0,0,0.3) 39%);
+}
+
+.header-title {
+    position: absolute;
+    top: 30%;
+    width: 40%;
+    line-height: 25px;
+    padding-left: 10px;
+}

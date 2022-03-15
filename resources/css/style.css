@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap');:root{
+    --backgroundColor: #f8f7f2;
+    --redColor: #f50909; 
+    --yelloColor: #C3DBF5;
+    --textColor:#8590AA;
+    --borderColor: #FFFFFF;
+    --grayColor: #303030;
+    --orangeColor: #f37d0e;
+    --navColor: #034078;
+    --whiteColor: white;
+    --darkBlueColor: black;
+    --linksColor: #ffba08;     
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 100vh;
+    font-family:'Roboto Condensed', monospace;
+    background-color: var(--backgroundColor);
+}
+
+a, li {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-shadow-custom {
+    text-shadow:  5px 5px 11px rgba(0,0,0,1)
+}
+
+.text-orange {
+    color: var(--linksColor);
+}
+
+.text-red {
+    color: var(--redColor);
+}
+
+.text-blue {
+    color: var(--navColor);
+}
