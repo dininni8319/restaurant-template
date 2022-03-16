@@ -5,7 +5,7 @@
                     Our services
                </h2>
           </section>
-          <section class="d-md-flex justify-content-around">
+          <section class="d-md-flex justify-content-around card-container">
                <div class="card">
                     <img src="https://picsum.photos/300" alt="">
                     <h3 class="text-orange px-2">Title</h3>

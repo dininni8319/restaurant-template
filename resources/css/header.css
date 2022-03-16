@@ -29,7 +29,31 @@
 .header-title {
     position: absolute;
     top: 30%;
-    width: 40%;
+    width: 30%;
     line-height: 25px;
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 700px){
+    .header-custom {
+        width: 100%;
+        min-height: 80vh;
+    }
+
+    .img-header {
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        width: 150px;
+        height: 150px;
+        object-fit:cover;
+    }
+
+    .header-title {
+        position: absolute;
+        top: 50%;
+        width: 80%;
+        line-height: 20px;
+        padding-left: 10px;
+    }
 }
